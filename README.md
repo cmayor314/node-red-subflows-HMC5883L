@@ -3,6 +3,8 @@ Subflows to read information over I2C bus from HMC5883L 3-axis digital compass
 
 ## Included Files:
 
+All these subflows can be installed/used independently from each other.
+
 **confirmHardwareIdentity.json** - to confirm the correct device exists on the I2C bus
 
 **readConfigRegister.json** - Read the configuration register
@@ -15,7 +17,7 @@ Subflows to read information over I2C bus from HMC5883L 3-axis digital compass
 
 ## Additionally Required:
 
-The node-red-contrib-i2c is required for this subflow.
+The node-red-contrib-i2c is **required** for this subflow.
 
 https://flows.nodered.org/node/node-red-contrib-i2c
 
