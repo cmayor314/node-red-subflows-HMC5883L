@@ -15,6 +15,9 @@ All these subflows can be installed/used independently from each other.
 
 **getCurrentOperationalModeStatus** - get the Current Operational Mode Status
 
+![image](https://user-images.githubusercontent.com/105139648/173205894-018f3b0e-b335-48ee-b77a-c927139aa8fd.png)
+
+
 ## Additionally Required:
 
 The node-red-contrib-i2c is **required** for this subflow.
