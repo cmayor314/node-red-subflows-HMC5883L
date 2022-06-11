@@ -37,3 +37,8 @@ https://www.digikey.com/en/datasheets/honeywellmicroelectronicsprecisionsensors/
 This collection of subflows is not well documented. I made this flow years ago as a test, it worked fine, and then I didn't need to use that specific component anymore so I never went back and documented it well.  
 
 I have uploaded it here so it doesn't disappear entirely, and somebody else could use it.  It works as advertised.
+
+## Import what you need
+
+![image](https://user-images.githubusercontent.com/105139648/173206816-921b08c8-c977-4b96-8937-e5889f365760.png)
+
