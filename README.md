@@ -13,7 +13,7 @@ All these subflows can be installed/used independently from each other.
 
 **getCompassReading.json** - get 3D compass reading
 
-**getCurrentOperationalModeStatus** - get the Current Operational Mode Status
+**getCurrentOperationalModeStatus.json** - get the Current Operational Mode Status
 
 ![image](https://user-images.githubusercontent.com/105139648/173205894-018f3b0e-b335-48ee-b77a-c927139aa8fd.png)
 
