@@ -1,20 +1,34 @@
 # node-red-subflows-HMC5883L
 Subflows to read information over I2C bus from HMC5883L 3-axis digital compass
 
-confirmHardwareIdentity.json - to confirm the correct device exists on the I2C bus
+## Included Files:
 
-readConfigRegister.json - Read the configuration register
+**confirmHardwareIdentity.json** - to confirm the correct device exists on the I2C bus
 
-readStatusRegister.json - Read the status register
+**readConfigRegister.json** - Read the configuration register
 
-getCompassReading.json - get 3D compass reading
+**readStatusRegister.json** - Read the status register
 
-getCurrentOperationalModeStatus - get the Current Operational Mode Status
+**getCompassReading.json** - get 3D compass reading
 
+**getCurrentOperationalModeStatus** - get the Current Operational Mode Status
 
-Latest Datasheet: https://www.digikey.com/en/datasheets/honeywellmicroelectronicsprecisionsensors/honeywell-microelectronics-precision-sensors-hmc5883l
+## Additionally Required:
 
-This isn't much info - I made this flow years ago, it worked fine, and then I didn't need to use that part.  I have uploaded it
-here so it doesn't disappear entirely, and somebody else could use it.
+The node-red-contrib-i2c is required for this subflow.
 
-Cam
+https://flows.nodered.org/node/node-red-contrib-i2c
+
+## Usage:
+
+Send an arbitrary payload to the subflow, get results.
+
+## Latest Datasheet: 
+
+https://www.digikey.com/en/datasheets/honeywellmicroelectronicsprecisionsensors/honeywell-microelectronics-precision-sensors-hmc5883l
+
+## Caveat emptor
+
+This collection of subflows is not well documented. I made this flow years ago as a test, it worked fine, and then I didn't need to use that specific component anymore so I never went back and documented it well.  
+
+I have uploaded it here so it doesn't disappear entirely, and somebody else could use it.  It works as advertised.
