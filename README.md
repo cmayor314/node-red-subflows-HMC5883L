@@ -2,9 +2,13 @@
 Subflows to read information over I2C bus from HMC5883L 3-axis digital compass
 
 confirmHardwareIdentity.json - to confirm the correct device exists on the I2C bus
+
 readConfigRegister.json - Read the configuration register
+
 readStatusRegister.json - Read the status register
+
 getCompassReading.json - get 3D compass reading
+
 getCurrentOperationalModeStatus - get the Current Operational Mode Status
 
 
