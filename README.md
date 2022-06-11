@@ -1,5 +1,5 @@
 # node-red-subflows-HMC5883L
-Subflows to read information over I2C bus from HMC5883L 3-axis digital compass
+Subflows to read information from the HMC5883L 3-axis digital compass via the I2C bus 
 
 ## Included Files:
 
